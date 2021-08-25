@@ -1,5 +1,5 @@
 # COMMON APPLICATION PROPERTIES
-spring.profiles.active=mysql
+spring.profiles.active: mysql
 server:
   # start services on random port by default
   port: 0
