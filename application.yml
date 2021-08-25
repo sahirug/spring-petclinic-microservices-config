@@ -1,5 +1,5 @@
 # COMMON APPLICATION PROPERTIES
-
+spring.profiles.active=mysql
 server:
   # start services on random port by default
   port: 0
@@ -8,8 +8,6 @@ server:
 
 # embedded database init, supports mysql too trough the 'mysql' spring profile
 spring:
-  profiles:
-    active: mysql
   datasource:
     schema: classpath*:db/hsqldb/schema.sql
     data: classpath*:db/hsqldb/data.sql
