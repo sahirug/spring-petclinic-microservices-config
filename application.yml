@@ -11,8 +11,8 @@ spring:
   zipkin:
     baseUrl: http://localhost:9411
   datasource:
-    schema: classpath*:db/hsqldb/schema.sql
-    data: classpath*:db/hsqldb/data.sql
+    schema: classpath*:db/mysql/schema.sql
+    data: classpath*:db/mysql/data.sql
   sleuth:
     sampler:
       probability: 1.0
