@@ -8,6 +8,8 @@ server:
 
 # embedded database init, supports mysql too trough the 'mysql' spring profile
 spring:
+  zipkin:
+    baseUrl: http://localhost:9411
   datasource:
     schema: classpath*:db/hsqldb/schema.sql
     data: classpath*:db/hsqldb/data.sql
