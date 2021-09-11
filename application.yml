@@ -13,6 +13,7 @@ spring:
   datasource:
     schema: classpath*:db/mysql/schema.sql
     data: classpath*:db/mysql/data.sql
+    initializationMode: always
   sleuth:
     sampler:
       probability: 1.0
